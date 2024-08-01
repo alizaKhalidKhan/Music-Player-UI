@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+body{
+    background: linear-gradient(to right ,#fda0ae , #f895a4 ,  #FFB5C0, #FFD1DF , white);
+}
+.header{
+    margin-left: 200px;
+    margin-top: 300px;
+}
+h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+}
+span{
+    background-color: rgb(99, 0, 99);
+    color: rgb(255, 225, 225);
+    font-family: cursive;
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-left: 40px;
+
+}
+.container{
+    position: fixed;
+    margin-top: -420px;
+    margin-left: 850px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    border:  1px solid rgb(243, 178, 199);
+    box-shadow: 1px 6px 18px black;
+}
+.main-head{
+    text-align: center;
+    margin-top: 35px;
+}
+.main-head h3{
+    font-size: 22px;
+    color: #970963;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 10px black;
+}
+.track{
+    line-height: 0;
+}
+.track .track-name{
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #970963;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.track marquee .artist-name{
+    padding-top: 0;
+    margin-top: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.artist-name h4{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.outer{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.audio{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer .gif{
+    width: 60px;
+}
